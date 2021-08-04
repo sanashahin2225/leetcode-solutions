@@ -1,3 +1,5 @@
+class Solution:
+    def preorderTraversal(self, root: TreeNode) -> List[int]:
         ans = []
         
         def preorder(root):
